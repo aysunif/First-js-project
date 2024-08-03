@@ -3,3 +3,23 @@
     margin:0;
     padding: 0;
 }
+
+.container {
+    // display: flex;
+    margin: auto;
+}
+
+body{
+    background-color: rgba(4, 19, 22, 1);
+}
+.menu{
+    height: 37px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
