@@ -1,0 +1,69 @@
+header {
+    display: flex;
+     height: 128px;
+     gap: 10px;
+     
+    nav {
+        display: flex;
+        max-width: 1254px;
+        margin-left: 1rem;
+        gap: 117px;
+        .logo {
+            width: 292px;
+            height: 62.45px;
+            border: 4px;
+            h1 {
+                color: $letterColor;
+                margin-top: .5rem;
+                font-family: Potta One;
+                font-size: 36px;
+                font-weight: 400;
+                line-height: 52.13px;
+                text-align: left;
+
+            }
+        }
+
+        .menu {
+               gap: 75px;
+               display: flex;
+               align-items: center;
+               width: 845px;
+               ul {
+                   display: flex;
+                   margin-top: 2.8rem;
+                //    align-items: center;
+                   width: 660px;
+                   gap: 60px;
+
+                li {
+                    //    display: flex;
+                    //    align-items: center;
+
+                    a {
+                        text-decoration: none;
+                        color: $letterColor;
+                        ;
+                    }
+                }
+            }
+            select{
+                display: flex;
+                margin-top: 1.8rem;
+                width: 72px;
+                gap: 10px;
+                color: rgba(4, 19, 22, 1);
+                
+            }
+            .icons{
+                display: flex;
+                align-items: center;
+                margin-top: 2rem;
+                width: 110px;
+                height: 25px;
+                gap: 60px;
+                color: $letterColor;
+            }
+        }
+    }
+}
