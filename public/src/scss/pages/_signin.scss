@@ -1,0 +1,68 @@
+main{
+    section{
+        display: flex;
+        .img{
+           height: 1024px;
+           width: 720px;
+        }
+        .signin{
+
+            width: 440px;
+            height: 558px;
+            margin-top: 226px;
+            margin-left: 180px;
+            
+           
+
+            h1{
+                color: $letterColor;
+                height: 96px;
+                width: 440px;
+                size: 64px;
+                font-family: "Kanit", sans-serif;
+                font-weight: 600;
+                text-align: center;
+                line-height: 95.68px;
+            }
+
+        #email{
+            width: 440px;
+            height: 55px;
+            border-radius: 15px;
+        }
+        #password{
+            width: 440px;
+            height: 55px;
+            border-radius: 15px;
+            margin-top: 15px;
+        }
+        #checkbox{
+          color: $letterColor;
+          margin-right: 80px;
+        }
+        a{
+        color: $letterColor;
+        }
+
+        #d-btn{
+          width: 440px;
+          height: 55px;
+          border-radius: 15px;
+          margin-top: 40px;
+          margin-bottom: 25px;
+        }
+        #w-btn{
+            height: 55px;
+          width: 440px;
+          border-radius: 15px;
+          margin-bottom: 25px;
+          
+          
+         
+        }
+
+
+
+        }
+    }
+}

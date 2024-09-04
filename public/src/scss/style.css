@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+}
+
+body {
+  background-color: rgb(4, 19, 22);
+}
+
+.menu {
+  height: 37px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  height: 128px;
+  gap: 10px;
+}
+header nav {
+  display: flex;
+  max-width: 1254px;
+  margin-left: 1rem;
+  gap: 117px;
+}
+header nav .logo {
+  width: 292px;
+  height: 62.45px;
+  border: 4px;
+}
+header nav .logo h1 {
+  color: #F5EFEF;
+  margin-top: 0.5rem;
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 52.13px;
+  text-align: left;
+}
+header nav .menu {
+  gap: 75px;
+  display: flex;
+  align-items: center;
+  width: 845px;
+}
+header nav .menu ul {
+  display: flex;
+  margin-top: 2.8rem;
+  width: 660px;
+  gap: 60px;
+}
+header nav .menu ul li a {
+  text-decoration: none;
+  color: #F5EFEF;
+}
+header nav .menu select {
+  display: flex;
+  margin-top: 1.8rem;
+  width: 72px;
+  gap: 10px;
+  color: white;
+  background-color: #041316;
+  border: none;
+}
+header nav .menu .icons {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  width: 110px;
+  height: 25px;
+  gap: 60px;
+  color: #F5EFEF;
+}
+
+main .The-walking-dead .image img {
+  width: 618px;
+  border-radius: 15px;
+}
+main .The-walking-dead .image h5 {
+  color: #F6F0F0;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+main .The-walking-dead .inform {
+  margin-left: 70px;
+}
+main .The-walking-dead .inform .about h1 {
+  color: #DCD6D6;
+  margin: 40px 0 30px 0;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+main .The-walking-dead .inform .about h5 {
+  color: #DCD6D6;
+  width: 404px;
+  height: 90px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main .The-walking-dead .inform .buttons {
+  margin-top: 70px;
+}
+main .my-last-watch {
+  display: flex;
+}
+main .my-last-watch h2 {
+  color: #F5EFEF;
+  width: 233px;
+  height: 54px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+main .my-last-watch .Interstellar {
+  width: 832px;
+  height: 476px;
+  border-radius: 15px;
+}
+main .my-last-watch .La-Casa-De-Papel {
+  width: 404px;
+  height: 476px;
+  border-radius: 15px;
+  margin-left: 946px;
+}
+main .my-last-watch .Joker-Double-Madness {
+  width: 404px;
+  height: 476px;
+  border-radius: 15px;
+}
+main .my-last-watch .Emancipation {
+  width: 404px;
+  height: 476px;
+  border-radius: 15px;
+}
+main .my-last-watch .Old-Boy {
+  width: 404px;
+  height: 476px;
+  border-radius: 15px;
+}
+
+main section {
+  display: flex;
+}
+main section .img {
+  height: 1024px;
+  width: 720px;
+}
+main section .signin {
+  width: 440px;
+  height: 558px;
+  margin-top: 226px;
+  margin-left: 180px;
+}
+main section .signin h1 {
+  color: #F5EFEF;
+  height: 96px;
+  width: 440px;
+  size: 64px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  line-height: 95.68px;
+}
+main section .signin #email {
+  width: 440px;
+  height: 55px;
+  border-radius: 15px;
+}
+main section .signin #password {
+  width: 440px;
+  height: 55px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+main section .signin #checkbox {
+  color: #F5EFEF;
+  margin-right: 80px;
+}
+main section .signin a {
+  color: #F5EFEF;
+}
+main section .signin #d-btn {
+  width: 440px;
+  height: 55px;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+main section .signin #w-btn {
+  height: 55px;
+  width: 440px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}/*# sourceMappingURL=style.css.map */

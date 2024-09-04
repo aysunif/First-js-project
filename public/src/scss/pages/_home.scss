@@ -1,0 +1,100 @@
+main {
+    .The-walking-dead {
+        .image {
+            // opacity: 1;
+            img {
+                width: 618px;
+                // height: 363px;
+                border-radius: 15px;
+                
+            }
+
+            h5 {
+                color: #F6F0F0;
+                font-family: "Kanit", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+                // opacity: 1;
+            }
+        }
+
+        .inform {
+            margin-left: 70px;
+
+            .about {
+
+                h1 {
+                    color: #DCD6D6;
+                    margin: 40px 0 30px 0;
+                    font-family: "Kanit", sans-serif;
+                    font-weight: 600;
+                    font-style: normal;
+                }
+
+                h5 {
+                    color: #DCD6D6;
+                    width: 404px;
+                    height: 90px;
+                    font-family: "Kanit", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+            }
+
+            .buttons {
+                margin-top: 70px;
+            }
+        }
+
+
+
+    }
+
+    .my-last-watch {
+        display: flex;
+
+        h2 {
+            color: #F5EFEF;
+            width: 233px;
+            height: 54px;
+            font-family: "Kanit", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .Interstellar {
+
+            width: 832px;
+            height: 476px;
+            border-radius: 15px;
+
+
+        }
+
+        .La-Casa-De-Papel {
+            width: 404px;
+            height: 476px;
+            border-radius: 15px;
+            margin-left: 946px;
+            // margin-bottom: 730px;
+        }
+
+        .Joker-Double-Madness {
+            width: 404px;
+            height: 476px;
+            border-radius: 15px;
+        }
+
+        .Emancipation {
+            width: 404px;
+            height: 476px;
+            border-radius: 15px;
+        }
+
+        .Old-Boy {
+            width: 404px;
+            height: 476px;
+            border-radius: 15px;
+        }
+    }
+}
