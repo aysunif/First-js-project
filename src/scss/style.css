@@ -82,6 +82,7 @@ header nav .menu .icons {
   width: 110px;
   height: 25px;
   gap: 60px;
+<<<<<<< HEAD:public/src/scss/style.css
   color: #F5EFEF;
 }
 
@@ -208,3 +209,8 @@ main section .signin #w-btn {
   border-radius: 15px;
   margin-bottom: 25px;
 }/*# sourceMappingURL=style.css.map */
+=======
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 002c29ba46b6c23576451fc59e0dcc7d42105d8f:src/scss/style.css
