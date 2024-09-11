@@ -1,3 +1,4 @@
+
 let movies = [
     {
         img: "../image/Rectangle 108.png",
@@ -28,7 +29,7 @@ let movies = [
 let writer = ""
 movies.forEach(function (m) {
     writer += `
-    <div class="card">
+    <div class="card swiper-slide">
         <div class="inner">
             <div class="image">
                 <img src="${m.img}" alt="">
@@ -41,3 +42,12 @@ movies.forEach(function (m) {
 
 let div = document.querySelector(".cards");
 div.innerHTML= writer;
+
+var swiper = new Swiper(".slide-container", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
