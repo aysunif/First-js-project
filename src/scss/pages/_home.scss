@@ -2,7 +2,7 @@ main {
 
     // background-color: red;
     .The-walking-dead {
-        // position: relative;
+        position: relative;
 
         .image {
 
@@ -19,6 +19,8 @@ main {
                 font-weight: 600;
                 font-style: normal;
                 margin-bottom: 150px;
+                top: 0;
+                left: 0;
 
 
             }
@@ -82,7 +84,8 @@ main {
                     height: 56px;
                     border-radius: 15px;
                     color: $letterColor;
-                    border-color: $secondaryColor ;
+                    // border-color:  ;
+                    border: 1px solid $secondaryColor;
                 }
 
             }
@@ -228,29 +231,44 @@ main {
             // text-align: left
            }
         }
-        .cards{
-            @include flex;
-            // justify-content: space-between;
-            .card{
-                width: 190px;
-                height: 400px;
-                border: none;
-                border-radius: 15px;
-                background-color: $cardColor;
-                margin-right: 23px;
-                .inner{
-                    .image{
-                        img{
-                          width: 190px;
+        .slide-container{
+            max-width: 1120px;
+            width: 100%;
+            background-color: white;
+            padding: 40px 0;
+            // height: 1000px;
+           .slide-content{
+            margin: 0 40px;
+            .card-wrapper{
+                .cards{
+                    @include flex;
+                    // justify-content: space-between;
+                    .card{
+                        width: 190px;
+                        height: 400px;
+                        border: none;
+                        border-radius: 15px;
+                        background-color: $cardColor;
+                        margin-right: 23px;
+                        .inner{
+                            .image{
+                                img{
+                                  width: 190px;
+                                }
+                            }
+                            .name{
+                                color: $letterColor;
+                                margin-left: 12px;
+                            }
                         }
                     }
-                    .name{
-                        color: $letterColor;
-                        margin-left: 12px;
-                    }
                 }
+               
+                
             }
+           }
         }
+        
         
     }
 }
