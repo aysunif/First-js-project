@@ -47,8 +47,6 @@ header nav .logo h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 36px;
-  line-height: 52.13px;
-  text-align: left;
 }
 header nav .menu {
   gap: 75px;
@@ -90,6 +88,58 @@ header hr {
   border-radius: 0.5px;
 }
 
+footer .foot {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot .logo h1 {
+  color: #F5EFEF;
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+footer .foot .logo h5 {
+  color: #F5EFEF;
+  font-family: "Miriam Libre", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  width: 420px;
+}
+footer .foot .info h4 {
+  color: #F5EFEF;
+  font-family: "Kanit";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+footer .foot .info ul {
+  padding-left: 0;
+}
+footer .foot .info ul li a {
+  text-decoration: none;
+  color: #F5EFEF;
+}
+footer .foot .contact h4 {
+  color: #F5EFEF;
+  font-family: "Kanit";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+footer .foot .contact ul {
+  padding-left: 0;
+}
+footer .foot .contact ul li i {
+  color: #F5EFEF;
+}
+footer .foot .contact ul li a {
+  text-decoration: none;
+  color: #F5EFEF;
+}
+
 main .The-walking-dead {
   position: relative;
 }
@@ -105,7 +155,8 @@ main .The-walking-dead .image h5 {
   font-style: normal;
   margin-bottom: 150px;
   top: 0;
-  left: 0;
+  left: 25px;
+  padding-top: 325px;
 }
 main .The-walking-dead .inform {
   margin-left: 70px;
@@ -170,15 +221,15 @@ main .my-last-watch .title h2 {
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
-  width: 233px;
   height: 54px;
 }
 main .my-last-watch .last-watch-cards .top {
   display: flex;
+  padding-bottom: 25px;
 }
 main .my-last-watch .last-watch-cards .top .Interstellar {
   position: relative;
-  margin-right: 25px;
+  padding-right: 25px;
 }
 main .my-last-watch .last-watch-cards .top .Interstellar img {
   width: 832px;
@@ -189,6 +240,12 @@ main .my-last-watch .last-watch-cards .top .Interstellar h5 {
   position: absolute;
   color: #F5EFEF;
   margin-bottom: 150px;
+  top: 0;
+  left: 25px;
+  padding-top: 435px;
+}
+main .my-last-watch .last-watch-cards .top .La-Casa-De-Papel {
+  position: relative;
 }
 main .my-last-watch .last-watch-cards .top .La-Casa-De-Papel img {
   width: 404px;
@@ -196,11 +253,18 @@ main .my-last-watch .last-watch-cards .top .La-Casa-De-Papel img {
   border-radius: 15px;
 }
 main .my-last-watch .last-watch-cards .top .La-Casa-De-Papel h5 {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  padding-top: 435px;
   color: #F5EFEF;
 }
 main .my-last-watch .last-watch-cards .bottom {
   display: flex;
   justify-content: space-between;
+}
+main .my-last-watch .last-watch-cards .bottom .Joker-Double-Madness {
+  position: relative;
 }
 main .my-last-watch .last-watch-cards .bottom .Joker-Double-Madness img {
   width: 404px;
@@ -208,7 +272,14 @@ main .my-last-watch .last-watch-cards .bottom .Joker-Double-Madness img {
   border-radius: 15px;
 }
 main .my-last-watch .last-watch-cards .bottom .Joker-Double-Madness h5 {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  padding-top: 435px;
   color: #F5EFEF;
+}
+main .my-last-watch .last-watch-cards .bottom .Emancipation {
+  position: relative;
 }
 main .my-last-watch .last-watch-cards .bottom .Emancipation img {
   width: 404px;
@@ -216,7 +287,14 @@ main .my-last-watch .last-watch-cards .bottom .Emancipation img {
   border-radius: 15px;
 }
 main .my-last-watch .last-watch-cards .bottom .Emancipation h5 {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  padding-top: 435px;
   color: #F5EFEF;
+}
+main .my-last-watch .last-watch-cards .bottom .Old-Boy {
+  position: relative;
 }
 main .my-last-watch .last-watch-cards .bottom .Old-Boy img {
   width: 404px;
@@ -224,12 +302,14 @@ main .my-last-watch .last-watch-cards .bottom .Old-Boy img {
   border-radius: 15px;
 }
 main .my-last-watch .last-watch-cards .bottom .Old-Boy h5 {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  padding-top: 435px;
   color: #F5EFEF;
 }
 main .According-to-Your-Choices {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 main .According-to-Your-Choices .title h2 {
@@ -238,23 +318,14 @@ main .According-to-Your-Choices .title h2 {
   font-weight: 500;
   font-style: normal;
   width: 427px;
-  height: 54px;
 }
 main .According-to-Your-Choices .slide-container {
-  max-width: 1120px;
+  max-width: 1260px;
   width: 100%;
-  background-color: white;
-  padding: 40px 0;
+  padding: 20px 0;
+  margin: 0;
 }
-main .According-to-Your-Choices .slide-container .slide-content {
-  margin: 0 40px;
-}
-main .According-to-Your-Choices .slide-container .slide-content .card-wrapper .cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main .According-to-Your-Choices .slide-container .slide-content .card-wrapper .cards .card {
+main .According-to-Your-Choices .slide-container .card-wrapper .card {
   width: 190px;
   height: 400px;
   border: none;
@@ -262,10 +333,144 @@ main .According-to-Your-Choices .slide-container .slide-content .card-wrapper .c
   background-color: rgba(255, 255, 255, 0.1019607843);
   margin-right: 23px;
 }
-main .According-to-Your-Choices .slide-container .slide-content .card-wrapper .cards .card .inner .image img {
+main .According-to-Your-Choices .slide-container .card-wrapper .card .inner .image img {
   width: 190px;
 }
-main .According-to-Your-Choices .slide-container .slide-content .card-wrapper .cards .card .inner .name {
+main .According-to-Your-Choices .slide-container .card-wrapper .card .inner .name {
+  color: #F5EFEF;
+  margin-left: 12px;
+}
+main .Top-10-Movies {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .Top-10-Movies .title h2 {
+  color: #F5EFEF;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+main .Top-10-Movies .slide-container {
+  max-width: 1260px;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+main .Top-10-Movies .slide-container .card-wrapper2 .card {
+  width: 190px;
+  height: 400px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  margin-right: 23px;
+}
+main .Top-10-Movies .slide-container .card-wrapper2 .card .inner .image img {
+  width: 190px;
+}
+main .Top-10-Movies .slide-container .card-wrapper2 .card .inner .name {
+  color: #F5EFEF;
+  margin-left: 12px;
+}
+main .New-For-You {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .New-For-You .title h2 {
+  color: #F5EFEF;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+main .New-For-You .slide-container {
+  max-width: 1260px;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+main .New-For-You .slide-container .card-wrapper3 .card {
+  width: 190px;
+  height: 400px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  margin-right: 23px;
+}
+main .New-For-You .slide-container .card-wrapper3 .card .inner .image img {
+  width: 190px;
+}
+main .New-For-You .slide-container .card-wrapper3 .card .inner .name {
+  color: #F5EFEF;
+  margin-left: 12px;
+}
+main .The-Best-Series {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .The-Best-Series .title h2 {
+  color: #F5EFEF;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+main .Popular-Suggestions {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .Popular-Suggestions .title h2 {
+  color: #F5EFEF;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+main .Popular-Suggestions .slide-container {
+  max-width: 1260px;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+main .Popular-Suggestions .slide-container .card-wrapper4 .card {
+  width: 190px;
+  height: 400px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  margin-right: 23px;
+}
+main .Popular-Suggestions .slide-container .card-wrapper4 .card .inner .image img {
+  width: 190px;
+}
+main .Popular-Suggestions .slide-container .card-wrapper4 .card .inner .name {
+  color: #F5EFEF;
+  margin-left: 12px;
+}
+main .The-Best {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .The-Best .title h2 {
+  color: #F5EFEF;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+main .The-Best .slide-container {
+  max-width: 1260px;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+main .The-Best .slide-container .card-wrapper5 .card {
+  width: 190px;
+  height: 400px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  margin-right: 23px;
+}
+main .The-Best .slide-container .card-wrapper5 .card .inner .image img {
+  width: 190px;
+}
+main .The-Best .slide-container .card-wrapper5 .card .inner .name {
   color: #F5EFEF;
   margin-left: 12px;
 }

@@ -1,0 +1,70 @@
+footer {
+    .foot{
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        .logo {
+            h1 {
+                color: $letterColor;
+                font-family: "Potta One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 36px;
+            }
+    
+            h5 {
+                color: $letterColor;
+                font-family: "Miriam Libre", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 20px;
+                width: 420px;
+            }
+        }
+    
+        .info {
+            h4 {
+                color: $letterColor;
+                font-family: "Kanit";
+                font-weight: 400;
+                font-style: normal;
+                font-size: 25px;
+            }
+    
+            ul {
+                padding-left: 0;
+                li {
+                    a {
+                        text-decoration: none;
+                        color: $letterColor;
+                    }
+                }
+            }
+        }
+    
+        .contact {
+            h4 {
+                color: $letterColor;
+                font-family: "Kanit";
+                font-weight: 400;
+                font-style: normal;
+                font-size: 25px;
+            }
+    
+            ul {
+                padding-left: 0;
+
+                li {
+                    i {
+                        color: $letterColor;
+                    }
+    
+                    a {
+                        text-decoration: none;
+                        color: $letterColor;
+                    }
+                }
+            }
+        }
+    }
+}
