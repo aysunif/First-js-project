@@ -475,6 +475,162 @@ main .The-Best .slide-container .card-wrapper5 .card .inner .name {
   margin-left: 12px;
 }
 
+main .Dowloaded {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .Dowloaded .title h2 {
+  color: #F5EFEF;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+main .Dowloaded .slide-container {
+  max-width: 1260px;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+main .Dowloaded .slide-container .mylist-card-wrapper1 .card {
+  width: 190px;
+  height: 400px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  margin-right: 23px;
+}
+main .Dowloaded .slide-container .mylist-card-wrapper1 .card .inner .image img {
+  width: 190px;
+}
+main .Dowloaded .slide-container .mylist-card-wrapper1 .card .inner .name {
+  color: #F5EFEF;
+  margin-left: 12px;
+}
+main .Watch-Later {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .Watch-Later .title h2 {
+  color: #F5EFEF;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+main .Watch-Later .slide-container {
+  max-width: 1260px;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+main .Watch-Later .slide-container .mylist-card-wrapper2 .card {
+  width: 190px;
+  height: 400px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  margin-right: 23px;
+}
+main .Watch-Later .slide-container .mylist-card-wrapper2 .card .inner .image img {
+  width: 190px;
+}
+main .Watch-Later .slide-container .mylist-card-wrapper2 .card .inner .name {
+  color: #F5EFEF;
+  margin-left: 12px;
+}
+main .For-Kids {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .For-Kids .title h2 {
+  color: #F5EFEF;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+main .For-Kids .slide-container {
+  max-width: 1260px;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+main .For-Kids .slide-container .mylist-card-wrapper3 .card {
+  width: 190px;
+  height: 400px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  margin-right: 23px;
+}
+main .For-Kids .slide-container .mylist-card-wrapper3 .card .inner .image img {
+  width: 190px;
+}
+main .For-Kids .slide-container .mylist-card-wrapper3 .card .inner .name {
+  color: #F5EFEF;
+  margin-left: 12px;
+}
+main .Favorites {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .Favorites .title h2 {
+  color: #F5EFEF;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+main .Favorites .slide-container {
+  max-width: 1260px;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+main .Favorites .slide-container .mylist-card-wrapper4 .card {
+  width: 190px;
+  height: 400px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  margin-right: 23px;
+}
+main .Favorites .slide-container .mylist-card-wrapper4 .card .inner .image img {
+  width: 190px;
+}
+main .Favorites .slide-container .mylist-card-wrapper4 .card .inner .name {
+  color: #F5EFEF;
+  margin-left: 12px;
+}
+main .Directors-Essential-Films {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .Directors-Essential-Films .title h2 {
+  color: #F5EFEF;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+main .Directors-Essential-Films .slide-container {
+  max-width: 1260px;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+main .Directors-Essential-Films .slide-container .mylist-card-wrapper5 .card {
+  width: 190px;
+  height: 400px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  margin-right: 23px;
+}
+main .Directors-Essential-Films .slide-container .mylist-card-wrapper5 .card .inner .image img {
+  width: 190px;
+}
+main .Directors-Essential-Films .slide-container .mylist-card-wrapper5 .card .inner .name {
+  color: #F5EFEF;
+  margin-left: 12px;
+}
+
 main section {
   display: flex;
 }

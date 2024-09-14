@@ -4,15 +4,194 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../src/scss/style.css">
+      <!-- SWIPER CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+     <!-- CSS -->
+     <link rel="stylesheet" href="../src/scss/style.css">
+    
 </head>
 <body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>MOVIE PLANET</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">My List</a>
+                        </li>
+                        <li>
+                            <a href="#">Movies</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#">Contact Us</a>
+                        </li> -->
+                        <li>
+                            <a href="#">Add New Movie</a>
+                        </li>
+
+                    </ul>
+                    <select name="language" id="lang">
+                        <option value="eng">ENG</option>
+                        <option value="rus">RUS</option>
+                        <option value="az">AZ</option>
+                        <option value="tr">TR</option>
+                    </select>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-regular fa-circle-user"></i>
+                    </div>
+                </div>
+
+            </nav>
+            <hr>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="Dowloaded">
+                <div class="title">
+                    <h2>Dowloaded</h2>
+                </div>
+                <div class="swiper slide-container">
+                        <div class="swiper-wrapper mylist-card-wrapper1">
+                            
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+
+            </section>
+            <hr>
+
+            <section class="Watch-Later">
+                <div class="title">
+                    <h2>Watch Later</h2>
+                </div>
+                <div class="swiper slide-container">
+                        <div class="swiper-wrapper mylist-card-wrapper2">
+                            
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+
+            </section>
+            <hr>
+
+            <section class="For-Kids">
+                <div class="title">
+                    <h2>For Kids</h2>
+                </div>
+                <div class="swiper slide-container">
+                        <div class="swiper-wrapper mylist-card-wrapper3">
+                            
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+
+            </section>
+            <hr>
+
+            <section class="Favorites">
+                <div class="title">
+                    <h2>Added to Favorites</h2>
+                </div>
+                <div class="swiper slide-container">
+                        <div class="swiper-wrapper mylist-card-wrapper4">
+                            
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+
+            </section>
+            <hr>
+
+            <section class="Directors-Essential-Films">
+                <div class="title">
+                    <h2>100 Directors Essential Films</h2>
+                </div>
+                <div class="swiper slide-container">
+                        <div class="swiper-wrapper mylist-card-wrapper5">
+                            
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+
+            </section>
+            <hr>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="foot">
+                <div class="logo">
+                    <h1>MOVIE PLANET</h1>
+                    <h5>As a "Movie Planet" family, we offer our users the most interesting movies in the highest quality. We promise to register for free and watch movies for free.</h5>
+                </div>
+                <div class="info">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Media Center</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>
+                            <i class="fa-brands fa-facebook"></i>
+                            <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                            <a href="#">Instagram</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-twitter"></i>
+                            <a href="#">Twitter</a>
+                        </li>
+                    </ul>
+    
+                </div> 
+            </div>
+           
+        </div>
+    </footer>
     
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/5d4258809e.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <!-- SWIPER JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JS -->
     <script src="../src/js/mylist.js"></script>
 </body>
 </html>

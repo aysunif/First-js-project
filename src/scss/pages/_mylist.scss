@@ -1,0 +1,262 @@
+main{
+    .Dowloaded{
+        display: flex;
+         flex-wrap: wrap;
+ 
+         .title {
+             h2 {
+                 color: $letterColor;
+                 font-family: "Kanit", sans-serif;
+                 font-weight: 500;
+                 font-style: normal;                 
+                
+             }
+         }
+ 
+         .slide-container {
+             max-width: 1260px;
+             width: 100%;
+             padding: 20px 0;
+             margin: 0; 
+            
+ 
+             .mylist-card-wrapper1 {
+ 
+                 .card {
+                     width: 190px;
+                     height: 400px;
+                     border: none;
+                     border-radius: 15px;
+                     background-color: $cardColor;
+                     margin-right: 23px;
+ 
+                     .inner {
+                         .image {
+                             img {
+                                 width: 190px;
+                             }
+                         }
+ 
+                         .name {
+                             color: $letterColor;
+                             margin-left: 12px;
+                         }
+                     }
+                 }
+ 
+ 
+             }
+ 
+         }
+ 
+ 
+     }
+     .Watch-Later{
+        display: flex;
+         flex-wrap: wrap;
+ 
+         .title {
+             h2 {
+                 color: $letterColor;
+                 font-family: "Kanit", sans-serif;
+                 font-weight: 500;
+                 font-style: normal;                 
+                
+             }
+         }
+ 
+         .slide-container {
+             max-width: 1260px;
+             width: 100%;
+             padding: 20px 0;
+             margin: 0; 
+            
+ 
+             .mylist-card-wrapper2 {
+ 
+                 .card {
+                     width: 190px;
+                     height: 400px;
+                     border: none;
+                     border-radius: 15px;
+                     background-color: $cardColor;
+                     margin-right: 23px;
+ 
+                     .inner {
+                         .image {
+                             img {
+                                 width: 190px;
+                             }
+                         }
+ 
+                         .name {
+                             color: $letterColor;
+                             margin-left: 12px;
+                         }
+                     }
+                 }
+ 
+ 
+             }
+ 
+         }
+ 
+ 
+     }
+     .For-Kids{
+        display: flex;
+         flex-wrap: wrap;
+ 
+         .title {
+             h2 {
+                 color: $letterColor;
+                 font-family: "Kanit", sans-serif;
+                 font-weight: 500;
+                 font-style: normal;                 
+                
+             }
+         }
+ 
+         .slide-container {
+             max-width: 1260px;
+             width: 100%;
+             padding: 20px 0;
+             margin: 0; 
+            
+ 
+             .mylist-card-wrapper3 {
+ 
+                 .card {
+                     width: 190px;
+                     height: 400px;
+                     border: none;
+                     border-radius: 15px;
+                     background-color: $cardColor;
+                     margin-right: 23px;
+ 
+                     .inner {
+                         .image {
+                             img {
+                                 width: 190px;
+                             }
+                         }
+ 
+                         .name {
+                             color: $letterColor;
+                             margin-left: 12px;
+                         }
+                     }
+                 }
+ 
+ 
+             }
+ 
+         }
+ 
+ 
+     }
+     .Favorites{
+        display: flex;
+         flex-wrap: wrap;
+ 
+         .title {
+             h2 {
+                 color: $letterColor;
+                 font-family: "Kanit", sans-serif;
+                 font-weight: 500;
+                 font-style: normal;                 
+                
+             }
+         }
+ 
+         .slide-container {
+             max-width: 1260px;
+             width: 100%;
+             padding: 20px 0;
+             margin: 0; 
+            
+ 
+             .mylist-card-wrapper4 {
+ 
+                 .card {
+                     width: 190px;
+                     height: 400px;
+                     border: none;
+                     border-radius: 15px;
+                     background-color: $cardColor;
+                     margin-right: 23px;
+ 
+                     .inner {
+                         .image {
+                             img {
+                                 width: 190px;
+                             }
+                         }
+ 
+                         .name {
+                             color: $letterColor;
+                             margin-left: 12px;
+                         }
+                     }
+                 }
+ 
+ 
+             }
+ 
+         }
+ 
+ 
+     }
+     .Directors-Essential-Films{
+        display: flex;
+         flex-wrap: wrap;
+ 
+         .title {
+             h2 {
+                 color: $letterColor;
+                 font-family: "Kanit", sans-serif;
+                 font-weight: 500;
+                 font-style: normal;                 
+                
+             }
+         }
+ 
+         .slide-container {
+             max-width: 1260px;
+             width: 100%;
+             padding: 20px 0;
+             margin: 0; 
+            
+ 
+             .mylist-card-wrapper5 {
+ 
+                 .card {
+                     width: 190px;
+                     height: 400px;
+                     border: none;
+                     border-radius: 15px;
+                     background-color: $cardColor;
+                     margin-right: 23px;
+ 
+                     .inner {
+                         .image {
+                             img {
+                                 width: 190px;
+                             }
+                         }
+ 
+                         .name {
+                             color: $letterColor;
+                             margin-left: 12px;
+                         }
+                     }
+                 }
+ 
+ 
+             }
+ 
+         }
+ 
+ 
+     }
+    }
