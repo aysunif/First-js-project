@@ -9,9 +9,6 @@ header {
         margin-left: 1rem;
         gap: 117px;
         .logo {
-            width: 292px;
-            height: 62.45px;
-            border: 4px;
             h1 {
                 color: $letterColor;
                 margin-top: .5rem;
@@ -19,7 +16,6 @@ header {
                 font-weight: 400;
                 font-style: normal;
                 font-size: 36px;
-
             }
         }
 
@@ -64,7 +60,20 @@ header {
                 height: 25px;
                 gap: 60px;
                 color: $letterColor;
+                ul{
+                    margin: 0;
+                }
+              
             }
+        }
+
+        @media (min-width: 576px) {
+            .logo{
+                h1{
+                    width: 100%;
+                }
+              }
+
         }
     }
 

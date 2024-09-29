@@ -1,0 +1,250 @@
+main {
+    .characters {
+        display: flex;
+        flex-wrap: wrap;
+
+        .title {
+            h2 {
+                color: $letterColor;
+                font-family: "Kanit", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+
+            }
+        }
+
+        .slide-container {
+            max-width: 1260px;
+            width: 100%;
+            padding: 20px 0;
+            margin: 0;
+
+            .card-wrapper {
+
+                .card {
+                    width: 100px;
+                    height: 100px;
+                    border: none;
+                    border-radius: 50%;
+                    background-color: $cardColor;
+
+                    .inner {
+                        .image {
+                            img {
+                                width: 100px;
+                                border-radius: 50%;
+                                object-fit: cover;
+                                height: 100px;
+                            }
+                        }
+
+                        .name {
+                            color: $letterColor;
+                            text-align: center;
+                        }
+                    }
+                }
+
+
+            }
+
+        }
+
+
+    }
+
+    .opinions {
+        display: flex;
+
+        .opin {
+            .title {
+                display: flex;
+                width: 186px;
+                height: 50px;
+
+                img {
+                    width: 50px;
+                }
+
+                h2 {
+                    color: $letterColor;
+                    font-family: "Kanit", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 30px;
+                    padding: 6px 0 0 10px;
+
+                }
+            }
+
+            .comment1 {
+                .user1 {
+                    display: flex;
+                    margin-top: 50px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        border: none;
+                        border-radius: 50%;
+                    }
+
+                    h2 {
+                        color: $letterColor;
+                        font-family: "Kanit", sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 20px;
+                        padding: 12px 0 0 10px;
+                    }
+                }
+
+                .inp {
+                    margin-left: 60px;
+                    input {
+                        width: 1200px;
+                        padding-left: 10px;
+                        background-color: $inputColor ;
+                        border: none;
+                        border-radius: 10px;
+                    }
+                }
+            }
+
+            .comment2 {
+                .user2 {
+                    display: flex;
+                    margin-top: 30px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        border: none;
+                        border-radius: 50%;
+                    }
+
+                    h2 {
+                        color: $letterColor;
+                        font-family: "Kanit", sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 20px;
+                        padding: 12px 0 0 10px;
+                    }
+                }
+
+                .inp2 {
+                    display: flex;
+                    margin-left: 60px;
+
+                    input {
+                        width: 1200px;
+                        padding-left: 10px;
+                        background-color: $inputColor ;
+                        border: none;
+                        border-radius: 10px;
+                    }
+                }
+                .rate{
+                    display: flex;
+                    margin: 10px 0 0 60px;
+                    .like{
+                        display: flex;
+                        padding-right: 40px;
+                        img{
+                          width: 23px;
+                          height: 20px;
+                        }
+                        h2{
+                            color: $letterColor;
+                            font-family: "Kanit", sans-serif;
+                            font-weight: 300;
+                            font-style: normal;
+                            font-size: 20px;
+                            padding-left: 5px;
+                        }
+                    }
+                    .dislike{
+                        display: flex;
+                        img{
+                            width: 23px;
+                            padding: 4px 0;
+                        }
+                        h2{
+                            color: $letterColor;
+                            font-family: "Kanit", sans-serif;
+                            font-weight: 300;
+                            font-style: normal;
+                            font-size: 20px;
+                            padding-left: 5px;
+                        }
+                    }
+                }
+            }
+            .more{
+                display: flex;
+                margin-top: 40px;
+                h2{
+                    color: $letterColor;
+                    font-family: "Kanit", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 30px;
+                    margin-top: 6px;
+                }
+            }
+        }
+
+    }
+
+    .for-you {
+        display: flex;
+        flex-wrap: wrap;
+
+        .title {
+            h2 {
+                color: $letterColor;
+                font-family: "Kanit", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+
+            }
+        }
+
+        .slide-container {
+            max-width: 1260px;
+            width: 100%;
+            padding: 20px 0;
+            margin: 0;
+
+            .card-wrapper2 {
+
+                .card {
+                    width: 190px;
+                    height: 400px;
+                    border: none;
+                    border-radius: 15px;
+                    background-color: $cardColor;
+                    margin-right: 23px;
+
+                    .inner {
+                        .image {
+                            img {
+                                width: 190px;
+                            }
+                        }
+
+                        .name {
+                            color: $letterColor;
+                            margin-left: 12px;
+                        }
+                    }
+                }
+
+
+            }
+
+        }
+
+
+    }
+
+}
